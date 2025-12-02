@@ -11,7 +11,6 @@ const ZarccProfile: NextPage = () => {
         {/* Header Section */}
         <div className="text-center space-y-4">
           <div className="inline-flex items-center justify-center w-24 h-24 rounded-full bg-primary/10 dark:bg-secondary/20 border-4 border-primary/30 dark:border-secondary/40">
-            {/* <span className="text-4xl font-bold text-primary dark:text-secondary">Z</span> */}
             <Image src={"/zarccAvatar.webp"} alt="Zarcc" width={100} height={100} className="rounded-full" />
           </div>
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight">{PROFILE_DATA.name}</h1>
