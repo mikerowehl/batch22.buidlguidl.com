@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Address } from "@scaffold-ui/components";
-import { NextPage } from "next";
+import type { NextPage } from "next";
 
 const KhanoPage: NextPage = () => {
   return (
@@ -8,8 +8,8 @@ const KhanoPage: NextPage = () => {
       <Image
         src="https://avatars.githubusercontent.com/u/00000000?v=4"
         alt="Khano avatar"
-        width={120}
-        height={120}
+        width={128}
+        height={128}
         className="rounded-full shadow-lg"
       />
 
