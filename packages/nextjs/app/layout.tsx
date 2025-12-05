@@ -1,4 +1,4 @@
-import Providers from "./Providers";
+import Providers from "./QueryClientProvider";
 import "@rainbow-me/rainbowkit/styles.css";
 import "@scaffold-ui/components/styles.css";
 import { ScaffoldEthAppWithProviders } from "~~/components/ScaffoldEthAppWithProviders";
