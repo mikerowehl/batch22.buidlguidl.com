@@ -1,5 +1,3 @@
-"use client";
-
 import { GitHubIcon, LinkedInIcon, TwitterIcon } from "./icons";
 import { Address, Balance } from "@scaffold-ui/components";
 import { type NextPage } from "next";
