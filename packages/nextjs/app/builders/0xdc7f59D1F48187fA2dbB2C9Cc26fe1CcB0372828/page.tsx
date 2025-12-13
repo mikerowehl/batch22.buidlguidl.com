@@ -9,6 +9,7 @@ const PrathmeshProfile: NextPage = () => {
     <div className="min-h-screen bg-base-200">
       <div className="max-w-3xl mx-auto px-4 py-12 md:py-16">
         <div className="bg-base-100 rounded-3xl border border-base-300 p-8 md:p-10 space-y-8">
+          {/* Header */}
           <div className="space-y-2">
             <div className="flex flex-col md:flex-row md:items-center gap-3">
               <div className="text-3xl md:text-4xl font-bold">{PROFILE_DATA.name}</div>
@@ -23,11 +24,13 @@ const PrathmeshProfile: NextPage = () => {
             </div>
           </div>
 
+          {/* About */}
           <div className="space-y-4">
             <h2 className="text-xl font-semibold">About</h2>
             <p className="text-base text-base-content/80 leading-relaxed">{PROFILE_DATA.bio}</p>
           </div>
 
+          {/* What I Do */}
           <div className="space-y-3 pt-4 border-t border-base-300">
             <h2 className="text-xl font-semibold">What I Do</h2>
             <p className="text-base text-base-content/80">
