@@ -7,4 +7,4 @@ export const PROFILE_DATA = {
   bio: "Driven by a passion for solving problems and playing games. Bringing together skills in AI/ML and full-stack development to build innovative experiences that make technology more fun and accessible.",
 };
 
-export const KEY_SKILLS = ["TypeScript", "React", "Python", "FastAPI", "Solidity", "Web3", "Flutter", "TailwindCSS"];
+export const KEY_SKILLS = ["TypeScript", "ReactJS", "HTML/CSS/JS", "Python", "FastAPI", "Flutter", "AI/ML"];
