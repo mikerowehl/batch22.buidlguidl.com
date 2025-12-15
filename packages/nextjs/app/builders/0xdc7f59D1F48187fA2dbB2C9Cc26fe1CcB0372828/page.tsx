@@ -1,5 +1,3 @@
-"use client";
-
 import { KEY_SKILLS, PROFILE_DATA } from "./constants";
 import { Address } from "@scaffold-ui/components";
 import type { NextPage } from "next";
@@ -47,10 +45,7 @@ const PrathmeshProfile: NextPage = () => {
             <h2 className="text-xl font-semibold">Skills</h2>
             <div className="flex flex-wrap gap-2">
               {KEY_SKILLS.map((skill, index) => (
-                <span
-                  key={index}
-                  className="px-3 py-1 text-xs rounded-full bg-base-200 border border-base-300 hover:border-primary transition-colors"
-                >
+                <span key={index} className="px-3 py-1 text-xs rounded-full bg-base-200 border border-base-300">
                   {skill}
                 </span>
               ))}
